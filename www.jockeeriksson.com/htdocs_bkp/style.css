@@ -1,0 +1,93 @@
+
+
+body {
+   background-color:#4a525a;
+/* 
+   background-image: url("tree.png");
+ */
+   background-repeat: no-repeat;
+   background-position: right top;
+   background-attachment: fixed;
+   color:white;
+   margin: 0;
+}
+
+#wrapper {
+	height: 750px;
+	width: 750px;
+	max-width: 100%;
+	margin: auto;
+	margin-top: 0;
+}
+
+#header {
+	position: relative;
+	background-image: url("euro2016banner.png");
+	width: 750px;
+	height: 260px;
+	margin: inherit;
+	margin-top: 0;
+}
+
+#header-content {
+   position: absolute;
+   bottom: 5px;
+   right: 20px;
+}
+
+p.header {
+   margin: 0;
+   font-size: 3em;
+   height: 1em%;
+   text-align: right;
+}
+
+#left_column {
+   display: inline;
+   width: 160px; 
+   height: 90%;
+   float: left;
+/* 
+   background-color: #4a525a;
+ */
+}
+
+#left_column ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+#left_column li {
+   font-family: "Helvetica-Neue", Helvetica, sans-serif;
+}
+
+#left_column li:hover {
+   background-color: #5d6771;
+}
+
+#main_column {
+   margin: 0;
+   display: inline; 
+   width: 590px;
+   height: 90%;
+   float: left;
+}
+
+#main_item {
+   margin: 0;
+   padding: 10px;
+   padding-top: 30px;
+}
+
+p {
+	font-family: "Helvetica-Neue", Helvetica, sans-serif;
+}
+
+#left_column a {
+   display: block;
+   text-decoration: none;
+   color: white;
+   padding: 7px;
+   padding-right: 27px;
+}

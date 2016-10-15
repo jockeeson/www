@@ -1,0 +1,21 @@
+--2016-01-30 20:54:47--  https://onedrive.live.com/download?cid=1F81AAE12B81E33A&resid=1F81AAE12B81E33A%21667&authkey=ADfPZyaKpAa9PCY&em=2
+Resolving onedrive.live.com (onedrive.live.com)... 204.79.197.217
+Connecting to onedrive.live.com (onedrive.live.com)|204.79.197.217|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://osidha.by3301.livefilestore.com/y3mBDZ1KKur5VR1p4NmvomIBdB3vf9Ierkt4VnwAtDZuEDIoH2iJKP1E_LdBuiR5iZpUNATfxyiJk-XdLH0z3XbRilMISia3KIhlXdqvrdwFbg/RTCC%20EM-tips%202016.xlsm?download&psid=1 [following]
+--2016-01-30 20:54:47--  https://osidha.by3301.livefilestore.com/y3mBDZ1KKur5VR1p4NmvomIBdB3vf9Ierkt4VnwAtDZuEDIoH2iJKP1E_LdBuiR5iZpUNATfxyiJk-XdLH0z3XbRilMISia3KIhlXdqvrdwFbg/RTCC%20EM-tips%202016.xlsm?download&psid=1
+Resolving osidha.by3301.livefilestore.com (osidha.by3301.livefilestore.com)... 204.79.197.213
+Connecting to osidha.by3301.livefilestore.com (osidha.by3301.livefilestore.com)|204.79.197.213|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 265071 (259K) [application/vnd.ms-excel.macroEnabled.12]
+Saving to: ‘RTCC_EM-tips_2016.xlsm’
+
+     0K .......... .......... .......... .......... .......... 19%  842K 0s
+    50K .......... .......... .......... .......... .......... 38% 1.40M 0s
+   100K .......... .......... .......... .......... .......... 57% 1.33M 0s
+   150K .......... .......... .......... .......... .......... 77% 2.22M 0s
+   200K .......... .......... .......... .......... .......... 96% 3.49M 0s
+   250K ........                                              100% 6.35M=0.2s
+
+2016-01-30 20:54:48 (1.50 MB/s) - ‘RTCC_EM-tips_2016.xlsm’ saved [265071/265071]
+

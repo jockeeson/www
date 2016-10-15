@@ -1,0 +1,2 @@
+2016/10/12 20:35:17 [error] 652#0: *1 directory index of "/home/www/www.vasterra.se/htdocs/" is forbidden, client: 83.251.54.234, server: www.vasterra.se, request: "GET / HTTP/1.1", host: "83.251.54.234"
+2016/10/12 20:35:20 [error] 652#0: *2 directory index of "/home/www/www.vasterra.se/htdocs/" is forbidden, client: 83.251.54.234, server: www.vasterra.se, request: "GET / HTTP/1.1", host: "83.251.54.234"

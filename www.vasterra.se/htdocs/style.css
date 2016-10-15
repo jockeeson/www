@@ -1,0 +1,13 @@
+
+
+body {
+   background-color:#CCE5FF;
+/* 
+   background-image: url("tree.png");
+ */
+   background-repeat: no-repeat;
+   background-position: right top;
+   background-attachment: fixed;
+   color:blue;
+   margin: 0;
+}
