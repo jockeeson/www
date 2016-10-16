@@ -38,13 +38,14 @@
 
   <div class="row">
 
-   <div class="col-l-5 menu">
+   <div class="col-l-3 menu">
     <ul>
-     <li>Lampor</li>
+     <li><a href="/secret">Hemligt</a></li>
+     <li><a href="/open">Öppet</a></li>
     </ul>
    </div>
 
-	<div class="col-l-7 main">
+	<div class="col-l-9 main">
 	 <form method="post">
 	  <p>
 		<button class="button_on" name="1ON">1 ON</button>&nbsp;
@@ -55,9 +56,6 @@
       <button class="button_off" name="3OFF">3 OFF</button><br><br>
       <button class="button_off" name="allOFF">All OFF</button>&nbsp;
      </p>
-     <p>
- 		<a href="/secret">Secret</a>
-	  </p>
     </form>
    </div>
   
