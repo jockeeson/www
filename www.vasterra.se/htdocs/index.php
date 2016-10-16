@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta name="apple-mobile-web-app-capable" content="yes"/> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
  </head> 
  <body>
   <?php 
@@ -40,14 +40,12 @@
 
    <div class="col-l-3 menu">
     <ul>
-     <li><a href="/secret">Hemligt</a></li>
-     <li><a href="/open">Öppet</a></li>
+     <li><strong><a href="#">Lampor</a></strong></li>
     </ul>
    </div>
 
 	<div class="col-l-9 main">
 	 <form method="post">
-	  <p>
 		<button class="button_on" name="1ON">1 ON</button>&nbsp;
  		<button class="button_off" name="1OFF">1 OFF</button><br><br>
       <button class="button_on" name="2ON">2 ON</button>&nbsp;
@@ -55,7 +53,6 @@
       <button class="button_on" name="3ON">3 ON</button>&nbsp;
       <button class="button_off" name="3OFF">3 OFF</button><br><br>
       <button class="button_off" name="allOFF">All OFF</button>&nbsp;
-     </p>
     </form>
    </div>
   
