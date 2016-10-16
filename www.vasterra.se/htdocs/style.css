@@ -1,109 +1,267 @@
+/* W3.CSS 2.8 by Jan Egil and Borge Refsnes */
 html {
-    font-family: "Lucida Sans", sans-serif;
+    box-sizing: border-box
+}
+
+html,body,h1,h2,h3,h4,h5,h6 {
+	font-family: "Roboto", sans-serif
+}
+
+* , * :before, * :after {
+    box-sizing: inherit
+}
+
+/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
 }
 
 body {
-/*   background-color:#CCE5FF;*/
-/* 
-   background-image: url("tree.png");
- */
-   background-repeat: no-repeat;
-   background-position: right top;
-   background-attachment: fixed;
-   color:blue;
-   margin: 0;
+    margin: 0
 }
 
-* {
-    box-sizing: border-box;
+article, aside, details, figcaption, figure, footer, header, main, menu,
+nav, section, summary {
+    display: block
 }
 
-.row::after {
-    content: "";
-    clear: both;
-    display: block;
-}
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
+audio, canvas, progress, video {
+    display: inline-block
 }
 
-[class*="col-"] {
-    float: left;
-    padding: 15px;
+progress {
+    vertical-align: baseline
 }
 
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+audio:not([controls]) {
+    display: none;
+    height: 0
 }
 
-@media only screen and (orientation: landscape) {
-    /* For tablets: */
-    .col-l-1 {width: 8.33%;}
-    .col-l-2 {width: 16.66%;}
-    .col-l-3 {width: 25%;}
-    .col-l-4 {width: 33.33%;}
-    .col-l-5 {width: 41.66%;}
-    .col-l-6 {width: 50%;}
-    .col-l-7 {width: 58.33%;}
-    .col-l-8 {width: 66.66%;}
-    .col-l-9 {width: 75%;}
-    .col-l-10 {width: 83.33%;}
-    .col-l-11 {width: 91.66%;}
-    .col-l-12 {width: 100%;}
+[hidden], template {
+    display: none
 }
 
-.menu ul {
-    list-style-type: none;
-    margin: 0;
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+a:active, a:hover {
+    outline-width: 0
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -0.25em
+}
+
+sup {
+    top: -0.5em
+}
+
+figure {
+    margin: 1em 40px
+}
+
+img {
+    border-style: none
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+code, kbd, pre, samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+button, input, select, textarea {
+    font: inherit;
+    margin: 0
+}
+
+optgroup {
+    font-weight: bold
+}
+
+button, input {
+    overflow: visible
+}
+
+button, select {
+    text-transform: none
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    color: inherit;
+    display: table;
+    max-width: 100%;
     padding: 0;
-}
-.menu li {
-    padding: 8px;
-    margin-bottom: 7px;
-    background-color :#33b5e5;
-    color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-.menu li:hover {
-    background-color: #0099cc;
+    white-space: normal
 }
 
-
-.button_on {
-	background-color: #4CAF50; /* Green */
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	border-radius: 8px;
-	font-size: 16px;
-}
-.button_on:hover {
-	background-color: #7CAF90; /* Green */
+textarea {
+    overflow: auto
 }
 
-.button_off {
-	background-color: #f44336; /* Red */
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	border-radius: 8px;
-	font-size: 16px;
+[type=checkbox], [type=radio] {
+    padding: 0
 }
 
-.button_off:hover {
-	background-color: #f48376; /* Green */
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 0.54
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+/* End extract */
+html, body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5
+}
+
+html {
+    overflow-x: hidden
+}
+
+h1, h2, h3, h4, h5, h6, .w3-slim, .w3-wide {
+    font-family: "Segoe UI", Arial, sans-serif
+}
+
+h1 {
+    font-size: 36px
+}
+
+h2 {
+    font-size: 30px
+}
+
+h3 {
+    font-size: 24px
+}
+
+h4 {
+    font-size: 20px
+}
+
+h5 {
+    font-size: 18px
+}
+
+h6 {
+    font-size: 16px
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    margin: 10px 0
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font-weight: inherit
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0
+}
+
+img {
+    margin-bottom: -5px
+}
+
+a {
+    color: inherit
+}
+
+.w3-serif {
+    font-family: "Times New Roman", Times, serif
+}
+
+.w3-wide {
+    letter-spacing: 4px
+}
+
+.w3-sidenav a,.w3-sidenav h4 {
+	padding: 12px;
+}
+
+.w3-navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
